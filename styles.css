@@ -82,7 +82,7 @@ nav a:hover {
 /* Hero Section */
 #home {
     background-image: url('Profile-picture.jpg'); 
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     color: #fff;
     text-align: center;
@@ -279,12 +279,7 @@ header ul li a {
     .about-image {
         margin-bottom: 20px;
     }
-      /* Media query for desktop */
-  @media (min-width: 768px) 
-    #home{
-    background-size: contain; /* Adjust for desktop */
-      background-height:500px;
-}
+      
 #Reviews{
     border-radius:;
 }
@@ -293,7 +288,7 @@ header ul li a {
     background-color:black;
 }
 .certificates { /* Container for certificates */
-    border-radius: 50px; /* Adjust border-radius as needed */
+    border-radius: 60px; /* Adjust border-radius as needed */
     padding: 20px;
     background-color: #fff; /* White background */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
