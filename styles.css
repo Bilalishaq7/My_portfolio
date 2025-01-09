@@ -51,7 +51,7 @@ nav li {
 nav a {
     color: #fff;
     text-decoration: none;
-    font-weight: 600; /* Slightly bolder font for navigation */
+    font-weight: 600; /* Slightly bolder font focontaination */
     transition: color 0.3s ease; /* Add smooth hover effect */
 }
 
@@ -82,7 +82,7 @@ nav a:hover {
 /* Hero Section */
 #home {
     background-image: url('Profile-picture.jpg'); 
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     color: #fff;
     text-align: center;
