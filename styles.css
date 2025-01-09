@@ -84,6 +84,7 @@ nav a:hover {
     background-image: url('Profile-picture.jpg'); 
     background-size: contain;
     background-position: center;
+    background-repeat: None;
     color: #fff;
     text-align: center;
     padding: 150px 0; 
