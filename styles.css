@@ -82,7 +82,7 @@ nav a:hover {
 /* Hero Section */
 #home {
     background-image: url('Profile-picture.jpg'); 
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     color: #fff;
     text-align: center;
@@ -280,8 +280,10 @@ header ul li a {
         margin-bottom: 20px;
     }
       /* Media query for desktop */
-  @media (min-width: 768px) {
+  @media (min-width: 768px) 
+    #home{
     background-size: contain; /* Adjust for desktop */
+      background-height:500px;
 }
 #Reviews{
     border-radius:;
